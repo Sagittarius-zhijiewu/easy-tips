@@ -29,7 +29,7 @@ class Singleton
    * 
    * @return string
    */
-  public function __clone()
+  private function __clone()
   {
     echo 'clone is forbidden';
   }
